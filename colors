@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- PLEASE READ THIS: 
+  	UI color application
+    
+    1- Choose your palette
+	Limit your selection of colors by choosing three color hues from the primary palette 
+	and one accent color from the secondary palette. The accent color may or may not need fallback options.
+	Assume we choose Primary - BLUE color With Ecent - PINK 
+		- 3 Blue colors are 100, 500 and 700
+		- Ecent color could be A200, A100 or A400
+		
+	2 - Text, icons, and dividers
+	The standard alpha value for text on a white background is 87% (#000000).
+		Secondary text, which is lower in the visual hierarchy, should have an alpha value of 54% (#000000).
+		Text hints for users, like those in text fields and labels, have an even lower visual prominence and should have an alpha value of 26% (#000000).
+		Devider should have an alpha value of 12% (#000000).
+		
+	3 - Toolbars and status bars
+		Toolbars and larger color blocks should use the primary 500 color, which should be the main color of your app. The status bar should be the darker 700 tint of your primary color. -->
+		
+	<!-- Main Color GREEN -->
+	<!-- <color name="primary">@color/material_green_500</color>
+	<color name="primaryDark">@color/material_green_700</color>
+	<color name="primary50">@color/material_green_50</color>
+	<color name="primary100">@color/material_green_100</color>
+	<color name="primary200">@color/material_green_200</color>
+	<color name="primary300">@color/material_green_300</color>
+	<color name="primary400">@color/material_green_400</color>
+	<color name="primary600">@color/material_green_600</color>
+	<color name="primary800">@color/material_green_800</color>
+	<color name="primary900">@color/material_green_900</color>
+	<color name="primaryA100">@color/material_green_A100</color>
+	<color name="primaryA200">@color/material_green_A200</color>
+	<color name="primaryA400">@color/material_green_A400</color>
+	<color name="primaryA700">@color/material_green_A700</color> -->
+	
+	<!-- Main Color BLUE -->
+	<color name="primary">@color/material_blue_600</color>
+	<color name="primaryDark">@color/material_modified_blue_700</color>
+	<color name="primary50">@color/material_modified_blue_50</color>
+	<color name="primary100">@color/material_modified_blue_100</color>
+	<color name="primary200">@color/material_modified_blue_200</color>
+	<color name="primary300">@color/material_modified_blue_300</color>
+	<color name="primary400">@color/material_modified_blue_400</color>
+	<color name="primary600">@color/material_modified_blue_600</color>
+	<color name="primary800">@color/material_modified_blue_800</color>
+	<color name="primary900">@color/material_modified_blue_900</color>
+	<color name="primaryA100">@color/material_modified_blue_A100</color>
+	<color name="primaryA200">@color/material_modified_blue_A200</color>
+	<color name="primaryA400">@color/material_modified_blue_A400</color>
+	<color name="primaryA700">@color/material_modified_blue_A700</color>
+	<color name="primary_65_per_cent">@color/material_blue_600_65_per_cent</color>
+	
+	
+	<!-- Main Color RED -->
+	<!-- <color name="primary">@color/material_red_500</color>
+	<color name="primaryDark">@color/material_red_700</color>
+	<color name="primary50">@color/material_red_50</color>
+	<color name="primary100">@color/material_red_100</color>
+	<color name="primary200">@color/material_red_200</color>
+	<color name="primary300">@color/material_red_300</color>
+	<color name="primary400">@color/material_red_400</color>
+	<color name="primary600">@color/material_red_600</color>
+	<color name="primary800">@color/material_red_800</color>
+	<color name="primary900">@color/material_red_900</color>
+	<color name="primaryA100">@color/material_red_A100</color>
+	<color name="primaryA200">@color/material_red_A200</color>
+	<color name="primaryA400">@color/material_red_A400</color>
+	<color name="primaryA700">@color/material_red_A700</color> -->
+	
+	<color name="accent">@color/material_blue_200</color>
+	<color name="default_bg">@color/material_grey_200</color>
+		
+    <!-- Colors for: Text, Icons & Deviders -->
+    <color name="devider_black_12_percent">@color/material_black_12_percent</color>
+    <color name="devider_white_12_percent">@color/material_white_12_percent</color>
+    
+    <color name="disabled_text_black_26_percent">@color/material_black_26_percent</color>
+    <color name="disabled_text_white_26_percent">@color/material_white_26_percent</color>
+    
+    <color name="hint_text_black_26_percent">@color/material_black_26_percent</color>
+    <color name="hint_text_white_26_percent">@color/material_white_26_percent</color>
+    
+    <color name="secondary_text_black_54_percent">@color/material_black_54_percent</color>
+    <color name="secondary_text_white_54_percent">@color/material_white_54_percent</color>
+    
+    <color name="icons_black_54_percent">@color/material_black_54_percent</color>
+    <color name="icons_white_54_percent">@color/material_white_54_percent</color>
+    
+    <color name="text_black_87_percent">@color/material_black_87_percent</color>
+    <color name="text_secondary_black_54_percent">@color/material_black_54_percent</color>
+    <color name="text_white_87_percent">@color/material_white_87_percent</color>
+    <color name="text_secondary_white_54_percent">@color/material_white_54_percent</color>
+    
+    <color name="transparent_white">#FF000000</color>
+    <color name="transparent_black">#FFFFFFFF</color>
+    
+    <color name="main_bg">#e5e5e5</color>
+    
+    <color name="action_and_status_bar_color">#FFFFFFFF</color>
+
+    <!-- Red -->
+    <color name="red_500">@color/material_red_500</color>
+    <color name="red_50">@color/material_red_50</color>
+    <color name="red_100">@color/material_red_100</color>
+    <color name="red_200">@color/material_red_200</color>
+    <color name="red_300">@color/material_red_300</color>
+    <color name="red_400">@color/material_red_400</color>
+    <color name="red_600">@color/material_red_600</color>
+    <color name="red_700">@color/material_red_700</color>
+    <color name="red_800">@color/material_red_800</color>
+    <color name="red_900">@color/material_red_900</color>
+    <color name="red_A100">@color/material_red_A100</color>
+    <color name="red_A200">@color/material_red_A200</color>
+    <color name="red_A400">@color/material_red_A400</color>
+    <color name="red_500_10_percent">@color/material_red_500_10_percent</color>
+    <color name="red_500_20_percent">@color/material_red_500_20_percent</color>
+    <color name="red_500_50_percent">@color/material_red_500_50_percent</color>
+
+    <!-- Pink -->
+    <color name="pink_500">@color/material_pink_500</color>
+    <color name="pink_50">@color/material_pink_50</color>
+    <color name="pink_100">@color/material_pink_100</color>
+    <color name="pink_200">@color/material_pink_200</color>
+    <color name="pink_300">@color/material_pink_300</color>
+    <color name="pink_400">@color/material_pink_400</color>
+    <color name="pink_600">@color/material_pink_600</color>
+    <color name="pink_700">@color/material_pink_700</color>
+    <color name="pink_800">@color/material_pink_800</color>
+    <color name="pink_900">@color/material_pink_900</color>
+    <color name="pink_A100">@color/material_pink_A100</color>
+    <color name="pink_A200">@color/material_pink_A200</color>
+    <color name="pink_A400">@color/material_pink_A400</color>
+    <color name="pink_500_10_percent">@color/material_pink_500_10_percent</color>
+    <color name="pink_500_20_percent">@color/material_pink_500_20_percent</color>
+    <color name="pink_500_50_percent">@color/material_pink_500_50_percent</color>
+
+    <!-- Purple -->
+    <color name="purple_500">@color/material_purple_500</color>
+    <color name="purple_50">@color/material_purple_50</color>
+    <color name="purple_100">@color/material_purple_100</color>
+    <color name="purple_200">@color/material_purple_200</color>
+    <color name="purple_300">@color/material_purple_300</color>
+    <color name="purple_400">@color/material_purple_400</color>
+    <color name="purple_600">@color/material_purple_600</color>
+    <color name="purple_700">@color/material_purple_700</color>
+    <color name="purple_800">@color/material_purple_800</color>
+    <color name="purple_900">@color/material_purple_900</color>
+    <color name="purple_A100">@color/material_purple_A100</color>
+    <color name="purple_A200">@color/material_purple_A200</color>
+    <color name="purple_A400">@color/material_purple_A400</color>
+    <color name="purple_500_10_percent">@color/material_purple_500_10_percent</color>
+    <color name="purple_500_20_percent">@color/material_purple_500_20_percent</color>
+    <color name="purple_500_50_percent">@color/material_purple_500_50_percent</color>
+
+    <!-- Deep Purple -->
+    <color name="deep_purple_500">@color/material_deep_purple_500</color>
+    <color name="deep_purple_50">@color/material_deep_purple_50</color>
+    <color name="deep_purple_100">@color/material_deep_purple_100</color>
+    <color name="deep_purple_200">@color/material_deep_purple_200</color>
+    <color name="deep_purple_300">@color/material_deep_purple_300</color>
+    <color name="deep_purple_400">@color/material_deep_purple_400</color>
+    <color name="deep_purple_600">@color/material_deep_purple_600</color>
+    <color name="deep_purple_700">@color/material_deep_purple_700</color>
+    <color name="deep_purple_800">@color/material_deep_purple_800</color>
+    <color name="deep_purple_900">@color/material_deep_purple_900</color>
+    <color name="deep_purple_A100">@color/material_deep_purple_A100</color>
+    <color name="deep_purple_A200">@color/material_deep_purple_A200</color>
+    <color name="deep_purple_A400">@color/material_deep_purple_A400</color>
+    <color name="deep_purple_500_10_percent">@color/material_deep_purple_500_10_percent</color>
+    <color name="deep_purple_500_20_percent">@color/material_deep_purple_500_20_percent</color>
+    <color name="deep_purple_500_50_percent">@color/material_deep_purple_500_50_percent</color>
+
+    <!-- Indigo -->
+    <color name="indigo_500">@color/material_indigo_500</color>
+    <color name="indigo_50">@color/material_indigo_50</color>
+    <color name="indigo_100">@color/material_indigo_100</color>
+    <color name="indigo_200">@color/material_indigo_200</color>
+    <color name="indigo_300">@color/material_indigo_300</color>
+    <color name="indigo_400">@color/material_indigo_400</color>
+    <color name="indigo_600">@color/material_indigo_600</color>
+    <color name="indigo_700">@color/material_indigo_700</color>
+    <color name="indigo_800">@color/material_indigo_800</color>
+    <color name="indigo_900">@color/material_indigo_900</color>
+    <color name="indigo_A100">@color/material_indigo_A100</color>
+    <color name="indigo_A200">@color/material_indigo_A200</color>
+    <color name="indigo_A400">@color/material_indigo_A400</color>
+    <color name="indigo_500_10_percent">@color/material_indigo_500_10_percent</color>
+    <color name="indigo_500_20_percent">@color/material_indigo_500_20_percent</color>
+    <color name="indigo_500_50_percent">@color/material_indigo_500_50_percent</color>
+
+    <!-- Blue -->
+  	<color name="blue_500">@color/material_blue_500</color>
+    <color name="blue_50">@color/material_blue_50</color>
+    <color name="blue_100">@color/material_blue_100</color>
+    <color name="blue_200">@color/material_blue_200</color>
+    <color name="blue_300">@color/material_blue_300</color>
+    <color name="blue_400">@color/material_blue_400</color>
+    <color name="blue_600">@color/material_blue_600</color>
+    <color name="blue_700">@color/material_blue_700</color>
+    <color name="blue_800">@color/material_blue_800</color>
+    <color name="blue_900">@color/material_blue_900</color>
+    <color name="blue_A100">@color/material_blue_A100</color>
+    <color name="blue_A200">@color/material_blue_A200</color>
+    <color name="blue_A400">@color/material_blue_A400</color>
+    <color name="blue_500_10_percent">@color/material_blue_500_10_percent</color>
+    <color name="blue_500_20_percent">@color/material_blue_500_20_percent</color>
+    <color name="blue_500_50_percent">@color/material_blue_500_50_percent</color>
+
+    <!-- Light Blue -->
+    <color name="light_blue_500">@color/material_light_blue_500</color>
+    <color name="light_blue_50">@color/material_light_blue_50</color>
+    <color name="light_blue_100">@color/material_light_blue_100</color>
+    <color name="light_blue_200">@color/material_light_blue_200</color>
+    <color name="light_blue_300">@color/material_light_blue_300</color>
+    <color name="light_blue_400">@color/material_light_blue_400</color>
+    <color name="light_blue_600">@color/material_light_blue_600</color>
+    <color name="light_blue_700">@color/material_light_blue_700</color>
+    <color name="light_blue_800">@color/material_light_blue_800</color>
+    <color name="light_blue_900">@color/material_light_blue_900</color>
+    <color name="light_blue_A100">@color/material_light_blue_A100</color>
+    <color name="light_blue_A200">@color/material_light_blue_A200</color>
+    <color name="light_blue_A400">@color/material_light_blue_A400</color>
+    <color name="light_blue_500_10_percent">@color/material_light_blue_500_10_percent</color>
+    <color name="light_blue_500_20_percent">@color/material_light_blue_500_20_percent</color>
+    <color name="light_blue_500_50_percent">@color/material_light_blue_500_50_percent</color>
+    <color name="light_blue_700_100_percent">@color/material_light_blue_700_100_percent</color>
+
+    <!-- Cyan -->
+    <color name="cyan_500">@color/material_cyan_500</color>
+    <color name="cyan_50">@color/material_cyan_50</color>
+    <color name="cyan_100">@color/material_cyan_100</color>
+    <color name="cyan_200">@color/material_cyan_200</color>
+    <color name="cyan_300">@color/material_cyan_300</color>
+    <color name="cyan_400">@color/material_cyan_400</color>
+    <color name="cyan_600">@color/material_cyan_600</color>
+    <color name="cyan_700">@color/material_cyan_700</color>
+    <color name="cyan_800">@color/material_cyan_800</color>
+    <color name="cyan_900">@color/material_cyan_900</color>
+    <color name="cyan_A100">@color/material_cyan_A100</color>
+    <color name="cyan_A200">@color/material_cyan_A200</color>
+    <color name="cyan_A400">@color/material_cyan_A400</color>
+    <color name="cyan_500_10_percent">@color/material_cyan_500_10_percent</color>
+    <color name="cyan_500_20_percent">@color/material_cyan_500_20_percent</color>
+    <color name="cyan_500_50_percent">@color/material_cyan_500_50_percent</color>
+
+    <!-- Teal -->
+    <color name="teal_500">@color/material_teal_500</color>
+    <color name="teal_50">@color/material_teal_50</color>
+    <color name="teal_100">@color/material_teal_100</color>
+    <color name="teal_200">@color/material_teal_200</color>
+    <color name="teal_300">@color/material_teal_300</color>
+    <color name="teal_400">@color/material_teal_400</color>
+    <color name="teal_600">@color/material_teal_600</color>
+    <color name="teal_700">@color/material_teal_700</color>
+    <color name="teal_800">@color/material_teal_800</color>
+    <color name="teal_900">@color/material_teal_900</color>
+    <color name="teal_A100">@color/material_teal_A100</color>
+    <color name="teal_A200">@color/material_teal_A200</color>
+    <color name="teal_A400">@color/material_teal_A400</color>
+    <color name="teal_500_10_percent">@color/material_teal_500_10_percent</color>
+    <color name="teal_500_20_percent">@color/material_teal_500_20_percent</color>
+    <color name="teal_500_50_percent">@color/material_teal_500_50_percent</color>
+
+    <!-- Green -->
+   	<color name="green_500">@color/material_green_500</color>
+    <color name="green_50">@color/material_green_50</color>
+    <color name="green_100">@color/material_green_100</color>
+    <color name="green_200">@color/material_green_200</color>
+    <color name="green_300">@color/material_green_300</color>
+    <color name="green_400">@color/material_green_400</color>
+    <color name="green_600">@color/material_green_600</color>
+    <color name="green_700">@color/material_green_700</color>
+    <color name="green_800">@color/material_green_800</color>
+    <color name="green_900">@color/material_green_900</color>
+    <color name="green_A100">@color/material_green_A100</color>
+    <color name="green_A200">@color/material_green_A200</color>
+    <color name="green_A400">@color/material_green_A400</color>
+    <color name="green_500_10_percent">@color/material_green_500_10_percent</color>
+    <color name="green_500_20_percent">@color/material_green_500_20_percent</color>
+    <color name="green_500_50_percent">@color/material_green_500_50_percent</color>
+    
+    <!-- Light Green -->
+    <color name="light_green_500">@color/material_light_green_500</color>
+    <color name="light_green_50">@color/material_light_green_50</color>
+    <color name="light_green_100">@color/material_light_green_100</color>
+    <color name="light_green_200">@color/material_light_green_200</color>
+    <color name="light_green_300">@color/material_light_green_300</color>
+    <color name="light_green_400">@color/material_light_green_400</color>
+    <color name="light_green_600">@color/material_light_green_600</color>
+    <color name="light_green_700">@color/material_light_green_700</color>
+    <color name="light_green_800">@color/material_light_green_800</color>
+    <color name="light_green_900">@color/material_light_green_900</color>
+    <color name="light_green_A100">@color/material_light_green_A100</color>
+    <color name="light_green_A200">@color/material_light_green_A200</color>
+    <color name="light_green_A400">@color/material_light_green_A400</color>
+    <color name="light_green_500_10_percent">@color/material_light_green_500_10_percent</color>
+    <color name="light_green_500_20_percent">@color/material_light_green_500_20_percent</color>
+    <color name="light_green_500_50_percent">@color/material_light_green_500_50_percent</color>
+
+    <!-- Lime -->
+    <color name="lime_500">@color/material_lime_500</color>
+    <color name="lime_50">@color/material_lime_50</color>
+    <color name="lime_100">@color/material_lime_100</color>
+    <color name="lime_200">@color/material_lime_200</color>
+    <color name="lime_300">@color/material_lime_300</color>
+    <color name="lime_400">@color/material_lime_400</color>
+    <color name="lime_600">@color/material_lime_600</color>
+    <color name="lime_700">@color/material_lime_700</color>
+    <color name="lime_800">@color/material_lime_800</color>
+    <color name="lime_900">@color/material_lime_900</color>
+    <color name="lime_A100">@color/material_lime_A100</color>
+    <color name="lime_A200">@color/material_lime_A200</color>
+    <color name="lime_A400">@color/material_lime_A400</color>
+    <color name="lime_500_10_percent">@color/material_lime_500_10_percent</color>
+    <color name="lime_500_20_percent">@color/material_lime_500_20_percent</color>
+    <color name="lime_500_50_percent">@color/material_lime_500_50_percent</color>
+
+    <!-- Red -->
+    <color name="yellow_500">@color/material_yellow_500</color>
+    <color name="yellow_50">@color/material_yellow_50</color>
+    <color name="yellow_100">@color/material_yellow_100</color>
+    <color name="yellow_200">@color/material_yellow_200</color>
+    <color name="yellow_300">@color/material_yellow_300</color>
+    <color name="yellow_400">@color/material_yellow_400</color>
+    <color name="yellow_600">@color/material_yellow_600</color>
+    <color name="yellow_700">@color/material_yellow_700</color>
+    <color name="yellow_800">@color/material_yellow_800</color>
+    <color name="yellow_900">@color/material_yellow_900</color>
+    <color name="yellow_A100">@color/material_yellow_A100</color>
+    <color name="yellow_A200">@color/material_yellow_A200</color>
+    <color name="yellow_A400">@color/material_yellow_A400</color>
+    <color name="yellow_500_10_percent">@color/material_yellow_500_10_percent</color>
+    <color name="yellow_500_20_percent">@color/material_yellow_500_20_percent</color>
+    <color name="yellow_500_50_percent">@color/material_yellow_500_50_percent</color>
+
+    <!-- _Amber -->
+    <color name="amber_500">@color/material_amber_500</color>
+    <color name="amber_50">@color/material_amber_50</color>
+    <color name="amber_100">@color/material_amber_100</color>
+    <color name="amber_200">@color/material_amber_200</color>
+    <color name="amber_300">@color/material_amber_300</color>
+    <color name="amber_400">@color/material_amber_400</color>
+    <color name="amber_600">@color/material_amber_600</color>
+    <color name="amber_700">@color/material_amber_700</color>
+    <color name="amber_800">@color/material_amber_800</color>
+    <color name="amber_900">@color/material_amber_900</color>
+    <color name="amber_A100">@color/material_amber_A100</color>
+    <color name="amber_A200">@color/material_amber_A200</color>
+    <color name="amber_A400">@color/material_amber_A400</color>
+    <color name="amber_500_10_percent">@color/material_amber_500_10_percent</color>
+    <color name="amber_500_20_percent">@color/material_amber_500_20_percent</color>
+    <color name="amber_500_50_percent">@color/material_amber_500_50_percent</color>
+
+    <!-- Orange -->
+    <color name="orange_500">@color/material_orange_500</color>
+    <color name="orange_50">@color/material_orange_50</color>
+    <color name="orange_100">@color/material_orange_100</color>
+    <color name="orange_200">@color/material_orange_200</color>
+    <color name="orange_300">@color/material_orange_300</color>
+    <color name="orange_400">@color/material_orange_400</color>
+    <color name="orange_600">@color/material_orange_600</color>
+    <color name="orange_700">@color/material_orange_700</color>
+    <color name="orange_800">@color/material_orange_800</color>
+    <color name="orange_900">@color/material_orange_900</color>
+    <color name="orange_A100">@color/material_orange_A100</color>
+    <color name="orange_A200">@color/material_orange_A200</color>
+    <color name="orange_A400">@color/material_orange_A400</color>
+    <color name="orange_500_10_percent">@color/material_orange_500_10_percent</color>
+    <color name="orange_500_20_percent">@color/material_orange_500_20_percent</color>
+    <color name="orange_500_50_percent">@color/material_orange_500_50_percent</color>
+
+    <!-- Deep Orange -->
+    <color name="deep_orange_500">@color/material_deep_orange_500</color>
+    <color name="deep_orange_50">@color/material_deep_orange_50</color>
+    <color name="deep_orange_100">@color/material_deep_orange_100</color>
+    <color name="deep_orange_200">@color/material_deep_orange_200</color>
+    <color name="deep_orange_300">@color/material_deep_orange_300</color>
+    <color name="deep_orange_400">@color/material_deep_orange_400</color>
+    <color name="deep_orange_600">@color/material_deep_orange_600</color>
+    <color name="deep_orange_700">@color/material_deep_orange_700</color>
+    <color name="deep_orange_800">@color/material_deep_orange_800</color>
+    <color name="deep_orange_900">@color/material_deep_orange_900</color>
+    <color name="deep_orange_A100">@color/material_deep_orange_A100</color>
+    <color name="deep_orange_A200">@color/material_deep_orange_A200</color>
+    <color name="deep_orange_A400">@color/material_deep_orange_A400</color>
+    <color name="deep_orange_500_10_percent">@color/material_deep_orange_500_10_percent</color>
+    <color name="deep_orange_500_20_percent">@color/material_deep_orange_500_20_percent</color>
+    <color name="deep_orange_500_50_percent">@color/material_deep_orange_500_50_percent</color>
+
+    <!-- Brown -->
+    <color name="brown_500">@color/material_brown_500</color>
+    <color name="brown_50">@color/material_brown_50</color>
+    <color name="brown_100">@color/material_brown_100</color>
+    <color name="brown_200">@color/material_brown_200</color>
+    <color name="brown_300">@color/material_brown_300</color>
+    <color name="brown_400">@color/material_brown_400</color>
+    <color name="brown_600">@color/material_brown_600</color>
+    <color name="brown_700">@color/material_brown_700</color>
+    <color name="brown_800">@color/material_brown_800</color>
+    <color name="brown_900">@color/material_brown_900</color>
+    <color name="brown_500_10_percent">@color/material_brown_500_10_percent</color>
+    <color name="brown_500_20_percent">@color/material_brown_500_20_percent</color>
+    <color name="brown_500_50_percent">@color/material_brown_500_50_percent</color>
+
+    <!-- Blue Grey -->
+    <color name="blue_grey_500">@color/material_blue_grey_500</color>
+    <color name="blue_grey_50">@color/material_blue_grey_50</color>
+    <color name="blue_grey_100">@color/material_blue_grey_100</color>
+    <color name="blue_grey_200">@color/material_blue_grey_200</color>
+    <color name="blue_grey_300">@color/material_blue_grey_300</color>
+    <color name="blue_grey_400">@color/material_blue_grey_400</color>
+    <color name="blue_grey_600">@color/material_blue_grey_600</color>
+    <color name="blue_grey_700">@color/material_blue_grey_700</color>
+    <color name="blue_grey_800">@color/material_blue_grey_800</color>
+    <color name="blue_grey_900">@color/material_blue_grey_900</color>
+    <color name="blue_grey_500_10_percent">@color/material_blue_grey_500_10_percent</color>
+    <color name="blue_grey_500_20_percent">@color/material_blue_grey_500_20_percent</color>
+    <color name="blue_grey_500_50_percent">@color/material_blue_grey_500_50_percent</color>
+    <color name="blue_grey_600_100_percent">@color/material_blue_grey_600_100_percent</color>
+
+     <!-- Grey -->
+    <color name="grey_500">@color/material_grey_500</color>
+    <color name="grey_50">@color/material_grey_50</color>
+    <color name="grey_100">@color/material_grey_100</color>
+    <color name="grey_200">@color/material_grey_200</color>
+    <color name="grey_300">@color/material_grey_300</color>
+    <color name="grey_400">@color/material_grey_400</color>
+    <color name="grey_600">@color/material_grey_600</color>
+    <color name="grey_700">@color/material_grey_700</color>
+    <color name="grey_800">@color/material_grey_800</color>
+    <color name="grey_900">@color/material_grey_900</color>
+    <color name="grey_500_10_percent">@color/material_grey_500_10_percent</color>
+    <color name="grey_500_20_percent">@color/material_grey_500_20_percent</color>
+    <color name="grey_500_50_percent">@color/material_grey_500_50_percent</color>
+    <color name="grey_300_100_percent">@color/material_grey_300_100_percent</color>
+    
+    <!-- Black -->
+    <color name="black">@color/material_black</color>
+    <color name="black_10_percent">@color/material_black_10_percent</color>
+    <color name="black_12_percent">@color/material_black_12_percent</color>
+    <color name="black_15_percent">@color/material_black_15_percent</color>
+    <color name="black_20_percent">@color/material_black_20_percent</color>
+    <color name="black_26_percent">@color/material_black_26_percent</color>
+    <color name="black_30_percent">@color/material_black_30_percent</color>
+    <color name="black_50_percent">@color/material_black_50_percent</color>
+    <color name="black_54_percent">@color/material_black_54_percent</color>
+    <color name="black_65_percent">@color/material_black_65_percent</color>
+    <color name="black_87_percent">@color/material_black_87_percent</color>
+
+    <!-- White -->
+    <color name="white">@color/material_white</color>
+    <color name="white_10_percent">@color/material_white_10_percent</color>
+    <color name="white_11_percent">@color/material_white_11_percent</color>
+    <color name="white_12_percent">@color/material_white_12_percent</color>
+    <color name="white_15_percent">@color/material_white_15_percent</color>
+    <color name="white_20_percent">@color/material_white_20_percent</color>
+    <color name="white_26_percent">@color/material_white_26_percent</color>
+    <color name="white_30_percent">@color/material_white_30_percent</color>
+    <color name="white_50_percent">@color/material_white_50_percent</color>
+    <color name="white_54_percent">@color/material_white_54_percent</color>
+    <color name="white_87_percent">@color/material_white_87_percent</color>
+
+</resources>
